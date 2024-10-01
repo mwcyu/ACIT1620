@@ -1,0 +1,106 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 5rem;
+    margin-left: auto;
+}
+/* .page-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+} */
+
+
+.maincontainer {
+    display: flex;
+    padding-top: 15px;
+}
+
+header {
+    background-color: #008080;
+    text-align: center;
+    padding: 20px;
+}
+aside {
+    /* width: 25%; */
+    padding: 0px 30px;
+    margin-left: 0px;
+}
+nav {
+    padding-left:0px;
+}
+
+nav ul {
+    padding-left:0px;
+    margin-top: 0;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    padding-left:0px;
+    padding-bottom: 20px;
+}
+
+nav ul li a {
+    padding-left:0px;
+    color: #008080;
+    text-decoration: none;
+}
+
+main h2 {
+    margin-top: 10px;
+}
+main p {
+    margin-top: 0px;
+    padding-top: 0px;
+    position: 20px 0 0 0;
+
+}
+
+main img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.box {
+    display: inline-block;
+}
+ 
