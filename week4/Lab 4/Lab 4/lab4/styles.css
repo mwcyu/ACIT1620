@@ -54,7 +54,8 @@ header p {
 
 aside {
     width: 120px;
-    padding-right: 20px;
+    margin-left: 5%;
+    margin-right: 40px;
 }
 
 nav ul {
@@ -74,7 +75,8 @@ nav ul li a {
 }
 
 main {
-    width: 80%;
+    width: 55%;
+    margin-right: 20px;
 }
 
 main h2 {
@@ -84,12 +86,10 @@ main h2 {
 main p {
     margin-top: 0px;
     padding-top: 0px;
-    position: 20px;
-
 }
 
 main img {
-    width: 200px;
+    width: 170px;
     float: left;
     margin-right: 20px;
 }
